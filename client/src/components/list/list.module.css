@@ -1,0 +1,23 @@
+.list{
+    height: calc(100vh - 100px);
+    background-color: #bfa;
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    align-content: start;
+    align-items: center;
+    padding: 20px 0;
+}
+.item{
+    display: grid;
+    gap: 5px;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr auto auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: lightblue;
+}
+.item button{
+    padding: 0 5px;
+}

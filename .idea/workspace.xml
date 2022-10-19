@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a79aad5-def9-414b-9aa5-7f0b8c09e34d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/odin-recipes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/.idea/Booking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/api/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/api/controllers/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/api/controllers/hotel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/api/controllers/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/api/models/Hotel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/api/models/Room.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/api/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/api/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/api/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/api/routes/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/api/routes/hotels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/api/routes/rooms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/api/routes/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/api/utils/verifyToken.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/public/images/cities/brisbane.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/public/images/cities/gold-coast.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/public/images/cities/melbourne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/public/images/cities/sunshine-coast.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/public/images/cities/sydney.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/public/images/hotels/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/public/images/hotels/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/public/images/hotels/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/public/images/hotels/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/public/images/hotels/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/public/images/hotels/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/public/images/types/apartment.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/public/images/types/hotel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/public/images/types/resort.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/public/images/types/villa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/body/browseByType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/body/browseByType.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/body/feature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/body/feature.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/footer/link.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/footer/links.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/footer/subscribe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/footer/subscribe.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/header/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/header/header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/header/searchBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/header/searchBar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/header/timePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/hotelDetail/hotelDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/hotelDetail/hotelDetail.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/hotels/hotelBody.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/hotels/hotelBody.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/hotels/hotelBody.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/hotels/searchItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/hotels/searchItem.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/hotels/searchItemByType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/navbar/navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/navbar/navbar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/components/test/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/pages/home/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/pages/home/home.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/pages/hotel/hotel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/pages/list/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/pages/listProp/listProperty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/pages/listProp/listProperty.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/pages/login/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/pages/login/login.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/pages/login/login000.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/pages/login/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/pages/login/register.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/store/dateSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/store/roomSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Booking/client/src/store/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ethan-Book/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ethan-Book/.idea/Ethan-Book.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ethan-Book/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ethan-Book/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ethan-Book/.idea/webResources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Ethan-Book/Ethan-Book" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../battleship/src/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../battleship/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../battleship/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../battleship/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../battleship/src/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dashboard/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dashboard/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dashboard/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dashboard/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../form/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../form/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../form/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../form/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../form/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gridcal/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gridcal/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../gridcal/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../image slider/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../image slider/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../image slider/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../image slider/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../library/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../library/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../library/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../library/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../library/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msgboard/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msgboard/bin/www" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msgboard/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msgboard/public/stylesheets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msgboard/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../msgboard/routes/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nodetest/camoron.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nodetest/components/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nodetest/components/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nodetest/components/contact-me.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nodetest/components/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nodetest/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nodetest/intro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nodetest/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nodetest/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nodetest/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nodetest/rewrite001.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nodetest/routers/routerPost.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nodetest/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nodetest/test2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nodetest/test3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../nodetest/writeFile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../notes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../notes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../notes/.idea/notes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../notes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../notes/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../notes/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../others/notes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../others/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../others/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../others/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../others/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../passport/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../passport/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../passport/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../passport/.idea/passport.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../passport/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../passport/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../passport/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../passport/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../passport/views/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../passport/views/sign-up-form.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../personal-intro/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../personal-intro/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../personal-intro/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../personal-intro/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../personal-intro/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../personal-intro/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../personal-intro/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv/src/components/Education/Education.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv/src/components/Education/education.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv/src/components/Other/Other.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv/src/components/Other/other.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv/src/components/Person/Person.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv/src/components/Person/person.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv/src/components/Work/Work.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv/src/components/Work/WorkItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv/src/components/Work/work.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/.idea/memory-card.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/config/getHttpsConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/config/jest/babelTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/config/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/config/webpack/persistentCache/createEnvironmentHash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/public/images/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/public/images/10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/public/images/11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/public/images/12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/public/images/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/public/images/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/public/images/4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/public/images/5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/public/images/6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/public/images/7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/public/images/8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/public/images/9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/scripts/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/src/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../memory-card/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../others/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../others/test2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pern-todo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/declarations.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/add_todo/add.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/add_todo/add.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/header/header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/header/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/item/item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/list/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/list/list.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/about.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/home.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/13.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/17.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/18.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/19.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/20.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/images/shop/9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/src/About/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/src/About/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/src/Cart/Cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/src/Cart/cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/src/Home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/src/Home/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/src/Shop/Shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/src/Shop/ShopItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/src/Shop/shop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/src/Shop/shopSubItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/src/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shopping-cart/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-shopping-cart/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-shopping-cart/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-shopping-cart/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-shopping-cart/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-shopping-cart/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-shopping-cart/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-shopping-cart/src/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-shopping-cart/src/Profile1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-shopping-cart/src/Profile2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-shopping-cart/src/RouteSwitch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-shopping-cart/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/component/EducationBackground.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/component/PersonalInformation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/component/getnode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/component/nodetest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test2/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test2/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test2/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test2/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test2/src/components/Education/Education.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test2/src/components/Education/education.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test2/src/components/Other/Other.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test2/src/components/Person/Person.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test2/src/components/Work/Work.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test2/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test2/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test3/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test3/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test3/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test3/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test3/src/Education/Education.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test3/src/Other/Other.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test3/src/Person/Person.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test3/src/Person/person.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test3/src/Work/Work.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test3/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test4/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux/.idea/redux.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux/redux-test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux/redux-test/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux/redux-test/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux/redux-test/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux/redux-test/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux/redux-test/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux/redux-test/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux/redux-test/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux/redux-test/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux/redux-test/src/store/schoolSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux/redux-test/src/store/studentSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux2/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux2/.idea/redux2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux2/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../redux2/src/store/roomSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../restfulAPI/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../restfulAPI/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../restfulAPI/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../restfulAPI/.idea/restfulAPI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../restfulAPI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../restfulAPI/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../restfulAPI/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../restfulAPI/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../restfulAPI/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../restfulAPI/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../restfulAPI/routers/posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rockpaperscissors/.idea/rockpaperscissors.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../rockpaperscissors/rockpaperscissors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../sql/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tic-tac-toe/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tic-tac-toe/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tic-tac-toe/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tic-tac-toe/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../tic-tac-toe/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist/src/css/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist/src/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist/src/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist/src/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist/src/js/add-new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist/src/js/create-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist/src/js/sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist/src/js/update-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist/src/js/window-create-new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../todolist/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../token-test/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../token-test/.idea/token-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../token-test/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../token-test/authorization.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../token-test/models/Users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../token-test/routes/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../token-test/validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ts-learn/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ts-learn/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ts-learn/.idea/ts-learn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ts-learn/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ts-learn/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ts-learn/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../weather/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../weather/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../weather/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../weather/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../weather/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../webpack/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../webpack/src/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../webpack/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../webpack/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../webpack/src/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../webpack/src/js/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../webpack/src/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../webpack/src/js/mainpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../webpack/src/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../webpack/src/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../webpack/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../others/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../others/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lasagna.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../others/lasagna.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../notes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rockpaperscissors/rockpaperscissors.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../rockpaperscissors/rockpaperscissors.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../rockpaperscissors/rockpaperscissors.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../rockpaperscissors/rockpaperscissors.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GIumdisYdh2WcAkLeVrUCXmhEa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/zhangyi/repos/odin-recipes/odin-recipes/react/pern-todo/node_modules/react-scripts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SQL Resolution Scopes&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/zhangyi/repos/odin-recipes/odin-recipes/react/pern-todo/client/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/components/header" />
+      <recent name="$PROJECT_DIR$/client/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.db.js">
+    <configuration name="App.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <method v="2" />
+    </configuration>
+    <configuration name="db.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server/db.js" working-dir="$PROJECT_DIR$/server">
+      <method v="2" />
+    </configuration>
+    <configuration name="Wallaby" type="wallaby" factoryName="wallaby" configType="Automatic" configFolder="$PROJECT_DIR$" wsl="No" SmartStart="Yes">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.App.test.js" />
+      <item itemvalue="Node.js.db.js" />
+      <item itemvalue="Wallaby.js.Wallaby" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.db.js" />
+        <item itemvalue="Jest.App.test.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a79aad5-def9-414b-9aa5-7f0b8c09e34d" name="Changes" comment="" />
+      <created>1666088587930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666088587930</updated>
+      <workItem from="1666088590480" duration="2146000" />
+      <workItem from="1666090782709" duration="9724000" />
+      <workItem from="1666158709334" duration="32000" />
+      <workItem from="1666159030798" duration="8672000" />
+      <workItem from="1666174259903" duration="7487000" />
+      <workItem from="1666182243384" duration="7484000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

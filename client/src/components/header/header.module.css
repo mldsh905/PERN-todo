@@ -1,0 +1,8 @@
+.header{
+    font-weight: 800;
+    font-size: calc(2vw + 1rem);
+    background-color: yellowgreen;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
