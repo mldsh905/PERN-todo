@@ -229,36 +229,6 @@
       <change afterPath="$PROJECT_DIR$/../memory-card/src/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../others/test.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../others/test2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pern-todo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/declarations.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/add_todo/add.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/add_todo/add.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/header/header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/header/header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/item/item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/list/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/list/list.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../shopping-cart/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../shopping-cart/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../shopping-cart/package-lock.json" afterDir="false" />
@@ -470,7 +440,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -554,7 +524,7 @@
       <workItem from="1666158709334" duration="32000" />
       <workItem from="1666159030798" duration="8672000" />
       <workItem from="1666174259903" duration="7487000" />
-      <workItem from="1666182243384" duration="7484000" />
+      <workItem from="1666182243384" duration="7830000" />
     </task>
     <servers />
   </component>
