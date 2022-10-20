@@ -5,7 +5,7 @@ import pool from './db.js';
 import cors from 'cors';
 
 app.use(cors({
-    origin: ['https://pern-todo-client.onrender.com','http://localhost:3000'],
+    origin: 'https://pern-todo-client.onrender.com',
     credentials: true,
     optionSuccessStatus: 200,
 }));
