@@ -7,8 +7,14 @@ import cors from 'cors';
 app.use(cors({
     origin: ['https://pern-todo-client.onrender.com','http://localhost:3000'],
     credentials: true,
-    optionSuccessStatus: 200
+    optionSuccessStatus: 200,
 }));
+
+app.use(function(req, res, next) {
+    res.header('Access-Control-Allow-Origin', '*');
+    next();
+});
+
 app.use(express.json());
 
 //add a new todo
